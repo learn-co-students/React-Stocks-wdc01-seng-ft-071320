@@ -8,7 +8,7 @@ const SearchBar = (props) => {
       <label>
         <input type="radio" value="Alphabetically" checked={props.filter === 'Alphabetically'} onChange={(e) => props.onChange(e.target.value)}/>
         Alphabetically
-      </label>
+      </label> 
       <label>
         <input type="radio" value="Price" checked={props.filter === 'Price'} onChange={(e) => props.onChange(e.target.value)}/>
         Price
