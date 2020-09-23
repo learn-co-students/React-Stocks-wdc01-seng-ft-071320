@@ -61,20 +61,7 @@ class MainContainer extends Component {
       default:
         return displayStocks
     }
-
-    // if( this.state.sort === "Price") {
-    //   return displayStocks.sort((a, b) => a.price > b.price ? 1: -1)
-    // } 
-    //   else if ( this.state.sort === "Alphabetically") {
-    //   displayStocks.sort((a, b) => a.name > b.name ?  1: -1)
-    // } 
-    //   return this.state.stock 
   }
-
-  // filterStock = (e) => {
-  //   let filteredStocks = [...this.state.stocks]
-  //     return filteredStocks.filter( stock => stock.type === e )
-  // }
 
 
   render() {
